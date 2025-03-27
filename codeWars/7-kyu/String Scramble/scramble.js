@@ -5,3 +5,5 @@ function scramble(str, arr) {
     }
     return result.join('');
 }
+
+console.log(scramble('abcd', [0,3,1,2])); // acdb
